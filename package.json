@@ -1,10 +1,13 @@
 {
+  "name": "acument-web",
+  "version": "1.0.0",
+  "description": "A project using Bulma and Sass",
   "dependencies": {
     "bulma": "^1.0.0",
     "sass": "^1.77.2"
   },
   "scripts": {
-    "build-bulma": "sass --load-path=node_modules my-bulma-project.scss my-bulma-project.css",
+    "build-bulma": "sass --load-path=node_modules src/scss/index.scss src/assets/css/index.css",
     "start": "npm run build-bulma -- --watch"
   }
 }
