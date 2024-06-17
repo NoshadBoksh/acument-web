@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build-bulma": "sass --load-path=node_modules src/scss/index.scss src/assets/css/index.css",
+  "build": "node-sass src/scss/index.scss -o dist/css && cp src/index.html dist/index.html"
     "start": "npm run build-bulma -- --watch"
   }
 }
